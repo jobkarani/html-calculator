@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: greenyellow;
+    height: 100vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: minmax(150px,440px);
+    font-family: sans-serif;
+}
+.input-group{
+    background-color: gold;
+
+}
+input{
+    text-align: center;
+    padding: 1rem;
+    font-size: 2rem;
+    margin: 1rem;
+}
+ output{
+     background-color: gold;
+     text-align: center;
+     padding: 0.6rem;
+     font-size: 1.9rem;
+     margin-bottom: 2rem;
+ }
+ input::webkit-color-swatch{
+     border: none;
+     border-radius: 5px;
+ }
+ span{
+     font-size: 2rem;
+ }
